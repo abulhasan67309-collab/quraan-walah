@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quraan Walah</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f8faf8;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0f6b3e;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.1rem;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 24px;
+background:white;
+color:#0f6b3e;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+nav{
+background:#084d2b;
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+h2{
+color:#0f6b3e;
+margin-bottom:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+background:#084d2b;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Quraan Walah</h1>
+<p>Walking the Path of the Qur'an</p>
+<a class="btn" href="#contact">Join Now</a>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Us</h2>
+<p>
+Quraan Walah is dedicated to helping children, youth and adults learn
+the Qur'an with proper Tajweed and confidence through online classes.
+Our goal is to make Qur'anic learning accessible to everyone.
+</p>
+</section>
+
+<section id="courses">
+<h2>Courses</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Noorani Qaida</h3>
+<p>Learn Arabic letters and pronunciation from the basics.</p>
+</div>
+
+<div class="card">
+<h3>Qur'an Reading</h3>
+<p>Improve fluency and accuracy in recitation.</p>
+</div>
+
+<div class="card">
+<h3>Tajweed</h3>
+<p>Master the rules of Qur'anic recitation.</p>
+</div>
+
+<div class="card">
+<h3>Hifz Program</h3>
+<p>Memorize the Qur'an with structured guidance.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: your@email.com</p>
+<p>WhatsApp: +91XXXXXXXXXX</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX">
+WhatsApp
+</a>
+
+<footer>
+<p>© 2026 Quraan Walah. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
